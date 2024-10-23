@@ -2,7 +2,7 @@
 $servername = "localhost";
 $username = "root";
 $password = "";
-$dbname = "buzzer_system";
+$dbname = "bistij_buzzer_system";
 
 // Create connection
 $conn = new mysqli($servername, $username, $password, $dbname);
