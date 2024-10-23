@@ -34,7 +34,7 @@ $conn->close();
 </head>
 <body>
 <?php include 'navbar.php'; ?>
-<div class="container mt-5">
+<div class="container mt-5 vh-100">
     <h2 class="text-center mb-4 text-white">Send Message</h2>
     <?php if (isset($_GET['status'])): ?>
         <?php if ($_GET['status'] === 'success'): ?>

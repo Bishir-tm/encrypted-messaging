@@ -16,7 +16,7 @@ if (!isset($_SESSION['username'])) {
 </head>
 <body>
     <?php include 'navbar.php'; ?>
-    <div class="container mt-5">
+    <div class="container mt-5 vh-100">
         <h2 class="text-center mb-4 display-1 text-white">Messages</h2>
         <div class="d-flex justify-content-center gap-3">
             <a href="Send_message.php" class="btn btn-dark border fs-3 btn-lg">Send Message</a>
